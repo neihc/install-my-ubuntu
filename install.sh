@@ -75,9 +75,9 @@ sudo make install
 sudo ldconfig
 echo ""
 echo "Installing ZMQ......................."
-wget http://download.zeromq.org/zeromq-4.1.2.tar.gz
-tar -xvf zeromq-4.1.2.tar.gz
-cd zeromq-4.1.2
+wget http://download.zeromq.org/zeromq-4.1.4.tar.gz
+tar -xvf zeromq-4.1.4.tar.gz
+cd zeromq-4.1.4
 ./autogen.sh
 ./configure && make check
 sudo make install
